@@ -49,7 +49,7 @@ class Game {
   }
 
   fail() {
-    if (++this.lossElement.textContent === 4) {
+    if (++this.lossElement.textContent === 3) {
       alert('Вы проиграли!');
       this.reset();
     }
